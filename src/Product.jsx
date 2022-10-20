@@ -8,13 +8,15 @@ export default function Product(props) {
                 data.map((val) => {
                     return (
                         <div className='product container'>
+                        <div className="img">
                             <img src={val.img} />
-                            <h2> {val.name} </h2>
+                        </div>
+                        
+                            <h4> {val.name} </h4>
                         </div>
                     )
                 })
             }
-
         </div>
 
     )
