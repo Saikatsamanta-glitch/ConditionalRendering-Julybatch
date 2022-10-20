@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.heading{
+    text-align: center;
+    color: red;
+}
+h2{
+    text-align: center;
+}
+.product{
+    padding: 10px;
+    height: 350px;
+    width: 250px;
+    background: rgb(220, 220, 220);
+    border-radius: 10px;
+}
+.product img{
+    border-radius: 10px;
+    width:100% ;
+}
+.products{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
 }
